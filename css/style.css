@@ -1,0 +1,199 @@
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #ebedee;
+      color: #343a40;
+    }
+    .top-bar {
+      font-size: 0.9rem;
+      background-color: #ebedee;
+      padding: 5px 20px;
+    }
+    .main-navbar {
+      background-color: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border-radius: 30px;
+      margin: 10px auto;
+      padding: 10px 30px;
+      max-width: 1200px;
+    }
+    .nav-link.active {
+      border-bottom: 2px solid black;
+    }
+    .search-icon, .cart-icon, .theme-toggle {
+      background-color: #f1f1f1;
+      border-radius: 50%;
+      padding: 6px;
+      margin-left: 10px;
+    }
+    #searchBox {
+  max-width: 300px;
+}
+.hero-section {
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+}
+.hero-section {
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  padding: 50px 0;
+}
+
+.hero-left img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+}
+
+.hero-right {
+  padding-left: 30px;
+}
+
+.hero-right h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.hero-right .lead {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+.hero-right ul {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.hero-right li {
+  margin: 10px 0;
+}
+
+.hero-right a {
+  margin-top: 20px;
+}
+
+.hero-right .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+
+.product-description {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+ .icon-circle {
+      background-color: #2b3547;
+      padding: 8px;
+      border-radius: 50%;
+      margin-left: 10px;
+      display: inline-block;
+    }
+  .carousel-inner img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: contain;
+    }
+    .product-description {
+      margin-top: 20px;
+    }
+    .product-price {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .circle-img {
+      width: 100px; /* Adjust the size of the circle */
+      height: 100px;
+      background-color: #222;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+    .circle-img img {
+      max-width: 80%;
+      max-height: 80%;
+    }
+    .circle-img:hover {
+  transform: scale(2.0); /* slightly enlarge the circle */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* subtle shadow on hover */
+}
+
+    .circle-img img {
+      transition: transform 0.3s ease; /* smooth transition for the image */
+    }
+
+    .circle-img:hover img {
+      transform: scale(1.2); /* slightly enlarge the image */
+    }
+
+    .card-deck {
+      margin-top: 20px;
+    }
+ 
+.card {
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #fff;
+  padding: 20px;
+/* Removed duplicate .circle-img definition */
+}
+
+.circle-img img {
+  width: 100%;  /* Make the image responsive */
+  height: 100%; /* Ensures the image fills the circle */
+  object-fit: cover; /* Ensures the image covers the circle without distortion */
+}
+
+@media (max-width: 768px) {
+  .circle-img {
+    width: 80px;
+    height: 80px;
+  }
+}
+  .feature-box {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .feature-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  }
+footer {
+  background-color: #212529;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+}
+/* <!-- Custom CSS for hover zoom --> */
+
+  .gallery-img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .gallery-img:hover {
+    transform: scale(1.05);
+  }
+  .filter-btn.active {
+    background-color: #343a40;
+    color: #fff;
+  }

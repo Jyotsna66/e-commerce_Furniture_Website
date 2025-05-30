@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Furniture Header</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/services.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Include Bootstrap Icons in your <head> if not already included -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+<!-- Lightbox2 CSS CDN -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
+  <!-- Isotope JS CDN -->
+
+
+</head>
+<body>
+
+
+
+<!-- Top Bar -->
+<div class="top-bar d-flex justify-content-between align-items-center flex-wrap p-2">
+  <div class="mb-2 mb-md-0">Contact us 24/7 <strong>+1 50 537 53 082</strong></div>
+  <div class="mb-2 mb-md-0"><i class="bi bi-fire text-danger"></i> The Biggest Sale Ever 50% Off</div>
+  <div class="d-flex flex-wrap">
+    <a href="wishlist.html" class="me-3 text-decoration-none mb-2 mb-md-0">Wishlist</a>
+    <a href="register.html" class="text-decoration-none mb-2 mb-md-0">Account</a>
+  </div>
+</div>
+<!-- Main Navbar -->
+<nav class="navbar main-navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#">Furniture</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Shop</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Account</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="login.html">Login</a></li>
+            <li><a class="dropdown-item" href="register.html">Register</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sevices.html">Services</a>
+        </li>
+      </ul>
+      <div class="d-flex align-items-center">
+        <!-- Cart Icon: Links to Cart Page -->
+        <a href="cart.html" class="cart-icon me-3">
+          <i class="bi bi-cart"></i>
+        </a>
+        
+        <!-- Search Icon and Search Box Toggle -->
+        <span class="search-icon" id="search-icon" role="button">
+          <i class="bi bi-search"></i>
+        </span>
+        
+        <!-- Search Box (Hidden by Default) -->
+        <div class="search-box-container" id="search-box-container" style="display: none;">
+          <input type="text" class="form-control" placeholder="Search for products..." id="search-input">
+          <button class="btn btn-primary mt-2" id="search-btn">Search</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+  <section class="hero-section py-5 bg-light">
+  <div class="container text-center d-flex justify-content-between align-items-center">
+    
+    <!-- Left Div: Image -->
+    <div class="hero-left col-md-6">
+      <img src="imgs/chair1.png" class="img-fluid" alt="Furniture">
+    </div>
+    
+    <!-- Right Div: Highlights -->
+    <div class="hero-right col-md-6">
+      <h1 class="display-4 fw-bold text-uppercase mb-4">Transform Your Space</h1>
+      <p class="lead mb-3">Discover our latest collection of furniture designed to give your home a modern and elegant touch.</p>
+      <ul class="list-unstyled">
+        <li><i class="bi bi-check-circle text-success"></i> Stylish & Contemporary Designs</li>
+        <li><i class="bi bi-check-circle text-success"></i> High-Quality Materials</li>
+        <li><i class="bi bi-check-circle text-success"></i> Affordable Prices</li>
+        <li><i class="bi bi-check-circle text-success"></i> Easy Home Delivery</li>
+      </ul>
+      <a href="#" class="btn btn-primary btn-lg">Shop Now</a>
+    </div>
+
+  </div>
+</section>
+<!-- Category Section -->
+<section>
+<div class="container my-5">
+  <div class="row text-center text-white gy-4">
+
+    <!-- Bedroom -->
+    <div class="col-6 col-md-2">
+      <a href="bedroom.html" class="text-decoration-none text-white">
+        <div class="circle-img mx-auto mb-2">
+          <img src="imgs/Image 3.png" alt="Bedroom" class="img-fluid" />
+        </div>
+        <h6 class="fw-bold" style="color: #3e1f1f;">Bedroom</h6>
+       
+      </a>
+    </div>
+
+    <!-- Living Room -->
+    <div class="col-6 col-md-2">
+      <a href="living-room.html" class="text-decoration-none text-white">
+        <div class="circle-img mx-auto mb-2">
+          <img src="imgs/Image 1.png" alt="Living Room" class="img-fluid" />
+        </div>
+        <h6 class="fw-bold" style="color: #3e1f1f;">Living room</h6>
+      </a>
+    </div>
+
+    <!-- Bathroom -->
+    <div class="col-6 col-md-2">
+      <a href="bathroom.html" class="text-decoration-none text-white">
+        <div class="circle-img mx-auto mb-2">
+          <img src="imgs/Image 2.png" alt="Bathroom" class="img-fluid" />
+        </div>
+        <h6 class="fw-bold" style="color: #3e1f1f;">Bathroom</h6>
+      </a>
+    </div>
+
+    <!-- Decoration -->
+    <div class="col-6 col-md-2">
+      <a href="decoration.html" class="text-decoration-none text-white">
+        <div class="circle-img mx-auto mb-2">
+          <img src="imgs/Image-12.png" alt="Decoration" class="img-fluid" />
+        </div>
+        <h6 class="fw-bold" style="color: #3e1f1f;">Decoration</h6>
+      </a>
+    </div>
+
+    <!-- Office -->
+    <div class="col-6 col-md-2">
+      <a href="office.html" class="text-decoration-none text-white">
+        <div class="circle-img mx-auto mb-2">
+          <img src="imgs/Image 4.png" alt="Office" class="img-fluid" />
+        </div>
+        <h6 class="fw-bold" style="color: #3e1f1f;">Office</h6>
+      </a>
+    </div>
+
+    <!-- Kitchen -->
+    <div class="col-6 col-md-2">
+      <a href="kitchen.html" class="text-decoration-none text-white">
+        <div class="circle-img mx-auto mb-2">
+          <img src="imgs/Image 2.png" alt="Kitchen" class="img-fluid" />
+        </div>
+        <h6 class="fw-bold" style="color: #3e1f1f;">Kitchen</h6>
+      </a>
+    </div>
+
+  </div>
+</div>
+</section>
+<!-- Trending Products Section -->
+<section class="container py-5">
+  <h2 class="text-center mb-5 fw-bold">Trending Products</h2>
+  <div class="row g-4">
+
+    <!-- Product Card 1 -->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100 text-center">
+        <img src="imgs/Image 13.jpg" class="card-img-top img-fluid" alt="Product 1">
+        <div class="card-body">
+          <h5 class="card-title">Modern Armchair</h5>
+          <p class="card-text text-muted">$199.00</p>
+          <a href="products.html" class="btn btn-outline-primary btn-sm">View Details</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Card 2 -->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100 text-center">
+        <img src="imgs/Image 8.jpg" class="card-img-top img-fluid" alt="Product 2">
+        <div class="card-body">
+          <h5 class="card-title">Wooden Table</h5>
+          <p class="card-text text-muted">$149.00</p>
+          <a href="products.html" class="btn btn-outline-primary btn-sm">View Details</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Card 3 -->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100 text-center">
+        <img src="imgs/Image 17.jpg" class="card-img-top img-fluid" alt="Product 3">
+        <div class="card-body">
+          <h5 class="card-title">Stylish Sofa</h5>
+          <p class="card-text text-muted">$299.00</p>
+          <a href="products.html" class="btn btn-outline-primary btn-sm">View Details</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Card 4 -->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100 text-center">
+        <img src="imgs/Image 7.jpg" class="card-img-top img-fluid" alt="Product 4">
+        <div class="card-body">
+          <h5 class="card-title">Office Chair</h5>
+          <p class="card-text text-muted">$129.00</p>
+          <a href="products.html" class="btn btn-outline-primary btn-sm">View Details</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- Interior design and inspiration -->
+<section class="py-5" style="background-color: #ebedee;">
+  <div class="container">
+
+    <h2 class="fw-bold mb-4 text-center text-dark">Interior design and inspiration</h2>
+
+    <!-- Filter Buttons -->
+    <div class="d-flex justify-content-center flex-wrap gap-2 mb-4">
+      <button class="btn btn-outline-dark btn-sm filter-btn active" data-filter="*">All</button>
+      <button class="btn btn-outline-dark btn-sm filter-btn" data-filter=".living">Living room</button>
+      <button class="btn btn-outline-dark btn-sm filter-btn" data-filter=".bedroom">Bedroom</button>
+      <button class="btn btn-outline-dark btn-sm filter-btn" data-filter=".kitchen">Kitchen</button>
+      <button class="btn btn-outline-dark btn-sm filter-btn" data-filter=".decoration">Decoration</button>
+      <button class="btn btn-outline-dark btn-sm filter-btn" data-filter=".office">Office</button>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="row g-3" id="gallery">
+
+      <div class="col-sm-6 col-lg-4 living">
+        <a href="imgs/gallary/living.jpg" data-lightbox="gallery" data-title="Living Room">
+          <img src="imgs/gallary/living.jpg"  class="img-fluid rounded shadow-sm gallery-img" alt="Living Room" />
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-lg-4 bedroom">
+        <a href="imgs/gallary/bed.jpg" data-lightbox="gallery" data-title="Bedroom">
+          <img src="imgs/gallary/bed.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="Bedroom" />
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-lg-4 kitchen">
+        <a href="imgs/gallary/kitchen.jpg" data-lightbox="gallery" data-title="Kitchen">
+          <img src="imgs/gallary/kitchen.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="Kitchen" />
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-lg-4 decoration">
+        <a href="imgs/gallary/decor.jpg" data-lightbox="gallery" data-title="Decoration">
+          <img src="imgs/gallary/decor.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="Decoration" />
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-lg-4 office">
+        <a href="imgs/gallary/office.jpg" data-lightbox="gallery" data-title="Office">
+          <img src="imgs/gallary/office.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="Office" />
+        </a>
+      </div>
+         <div class="col-sm-6 col-lg-4 kitchen">
+        <a href="imgs/gallary/kitchen.jpg" data-lightbox="gallery" data-title="Kitchen">
+          <img src="imgs/gallary/kitchen.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="Kitchen" />
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Feature Section -->
+<section class="bg-opacity-10 text-white py-5">
+  <div class="container">
+    <div class="row text-center">
+      
+      <!-- Eco-friendly -->
+      <div class="col-md-4 mb-4">
+        <div class="feature-box p-4 bg-secondary bg-opacity-10 rounded-4 h-100 shadow-sm transition">
+          <i class="bi bi-tree-fill fs-1 text-success mb-3"></i>
+          <h5 class="fw-bold" style="color: #3e1f1f;">Eco-friendly</h5>
+          <p class="text-muted small">
+            Decorate your space with eco-friendly furniture using low VOCs, environmentally safe materials, and sustainable finishes.
+          </p>
+        </div>
+      </div>
+
+      <!-- Unbeatable quality -->
+      <div class="col-md-4 mb-4">
+        <div class="feature-box p-4 bg-secondary bg-opacity-10 rounded-4 h-100 shadow-sm transition">
+          <i class="bi bi-award-fill fs-1 text-warning mb-3"></i>
+          <h5 class="fw-bold" style="color: #3e1f1f;">Unbeatable quality</h5>
+          <p class="text-muted small">
+            We source top-tier raw materials to ensure furniture and decor that offer premium quality and long-lasting comfort.
+          </p>
+        </div>
+      </div>
+
+      <!-- Delivery -->
+      <div class="col-md-4 mb-4">
+        <div class="feature-box p-4 bg-secondary bg-opacity-10 rounded-4 h-100 shadow-sm transition">
+          <i class="bi bi-truck fs-1 text-info mb-3"></i>
+          <h5 class="fw-bold" style="color: #3e1f1f;">Delivery to your door</h5>
+          <p class="text-muted small">
+            We deliver globally to your doorstep. Not satisfied? Reach out within 30 days and we’ll make it right—guaranteed.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Responsive Gallery Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-4" style="color: #3e1f1f;">Gallery</h2>
+    <div class="row g-3">
+
+      <!-- Image 1 -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <a href="imgs/hero.jpg" data-lightbox="furniture-gallery">
+          <img src="imgs/hero.jpg" alt="Gallery Image 1" class="img-fluid rounded shadow-sm" />
+        </a>
+      </div>
+
+      <!-- Image 2 -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <a href="imgs/hero-3.jpg" data-lightbox="furniture-gallery">
+          <img src="imgs/hero-3.jpg" alt="Gallery Image 2" class="img-fluid rounded shadow-sm" />
+        </a>
+      </div>
+
+      <!-- Image 3 -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <a href="imgs/hero-2.jpg" data-lightbox="furniture-gallery">
+          <img src="imgs/hero-2.jpg" alt="Gallery Image 3" class="img-fluid rounded shadow-sm" />
+        </a>
+      </div>
+
+      <!-- Image 4 -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <a href="imgs/hero-1.jpg" data-lightbox="furniture-gallery">
+          <img src="imgs/hero-1.jpg" alt="Gallery Image 4" class="img-fluid rounded shadow-sm" />
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+</section>
+<!-- footer section  -->
+<footer class="footer py-5">
+  <div class="container">
+    <div class="row text-center text-md-left">
+
+      <!-- Left Column -->
+      <div class="col-md-4 mb-4">
+        <h6 class="text-uppercase mb-3">Categories</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Bedroom</a></li>
+          <li><a href="#">Living room</a></li>
+          <li><a href="#">Bathroom</a></li>
+          <li><a href="#">Decoration</a></li>
+          <li><a href="#">Kitchen</a></li>
+          <li><a href="#">Sale</a></li>
+        </ul>
+      </div>
+
+      <!-- Center Column -->
+      <div class="col-md-4 mb-4 text-center">
+        <h5 class="mb-3 font-weight-bold">Stay in touch with us</h5>
+        <p class="text-white-50 mb-3">Receive the latest updates about our products & promotions</p>
+      <!-- Responsive Email Input + Submit Button -->
+
+        <div class="social-icons mt-4">
+          <a href="#"><i class='bx bxl-youtube'></i></a>
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+          <a href="#"><i class='bx bxl-telegram'></i></a>
+          <a href="#"><i class='bx bxl-pinterest'></i></a>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-md-4 mb-4">
+        <h6 class="text-uppercase mb-3">Customer Support</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Shipping options</a></li>
+          <li><a href="#">Tracking a package</a></li>
+          <li><a href="#">Help center</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Product returns</a></li>
+          <li><a href="#">Locations</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="row mt-4">
+      <div class="col-12 text-center text-white-50">
+        <p class="mb-0">&copy; All rights reserved. Made by <a href="#" class="text-white font-weight-bold">Jyotsna</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Lightbox2 JS CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <!-- Bootstrap Bundle JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
